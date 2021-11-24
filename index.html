@@ -17,7 +17,7 @@
     <p class="red-boxes box">Наймайг JS-ээр улаан болго</p>
     <p class="red-boxes box">Наймайг JS-ээр улаан болго</p>
 
-    <p id="">Намайг JS-ээр цэнхэр болго</p>
+    <p id="blue-box box">Намайг JS-ээр цэнхэр болго</p>
 
     <div class="box">Намайг JS ээр бор болго</div>
     <div class="box">Намайг JS ээр бор болго</div>
@@ -28,6 +28,11 @@
     <div class="box">Намайг JS ээр бор болго</div>
 
     <script src="./index.js">
+    
+    document.getElementsByClassName("red-boxes box").style.color = "red";
+    document.getElementById("blue-box box").style.color = "blue";
+    document.getElementsByClassName("box").style.color = "brown";
+
     </script>
   </body>
 </html>
